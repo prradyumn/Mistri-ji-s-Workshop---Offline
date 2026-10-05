@@ -2,7 +2,7 @@
 // Each key is one English sentence, with its final full stop dropped and every number (except the 1 or 2 in ∠1, ∠2)
 // written as {1}, {2}, ... in order. The Hindi uses the same {n}, in whatever order Hindi needs.
 // Terms follow the NCERT Class 7 Hindi-medium book: पूरक कोण (complementary), संपूरक कोण (supplementary),
-// समकोण (right angle), ऋजु कोण (straight angle), अधिक कोण (obtuse angle). The try square is a carpenter's गुनिया.
+// समकोण (right angle), सरल कोण (straight angle), अधिक कोण (obtuse angle). The try square is a carpenter's गुनिया.
 (function(){
 'use strict';
 const S={
@@ -89,7 +89,7 @@ const S={
  'A straight line makes {1}°':'सीधी रेखा {1}° बनाती है',
  'Look at the bottom edge where the strips meet':'नीचे के किनारे को देखो, जहाँ पट्टियाँ मिलती हैं',
  '∠1 and ∠2 are side by side on a straight line':'∠1 और ∠2 एक सीधी रेखा पर साथ-साथ हैं',
- 'A straight angle is {1}°':'सीधी रेखा का कोण, यानी ऋजु कोण, {1}° का होता है',
+ 'A straight angle is {1}°':'सीधी रेखा का कोण, यानी सरल कोण, {1}° का होता है',
  'So together, ∠1 and ∠2 make {1}°':'इसलिए ∠1 और ∠2 मिलकर {1}° बनाते हैं',
  'At what angle must Mistri-ji cut the second strip, so that the edge stays straight?':'मिस्त्री जी दूसरी पट्टी किस कोण पर काटें, ताकि किनारा सीधा रहे?',
  'Here is the edge without the wood':'यह रहा लकड़ी के बिना किनारा',
@@ -273,7 +273,7 @@ const S={
  'Try {1}°: its complement is {2}° − {3}° = {4}°':'{1}° लेकर देखो: उसका पूरक {2}° − {3}° = {4}° है',
 
  // The game: Mistri-ji's orders
- 'Order {1} of {2}':'ऑर्डर {1} ({2} में से)',
+ 'Order {1} of {2}':'पता लगाओ',
  'The school needs a window frame':'स्कूल को खिड़की की एक चौखट चाहिए',
  'Cut the second strip so the corner is a right angle':'दूसरी पट्टी ऐसे काटो कि कोना समकोण बने',
  'Ravi needs a long shelf':'रवि को एक लंबी शेल्फ़ चाहिए',
