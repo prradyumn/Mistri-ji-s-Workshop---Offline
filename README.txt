@@ -1,15 +1,24 @@
 Mistri-ji's Workshop - Learn with Swiftee (Grade 7: complementary and supplementary angles, MT07A02_L01_S01)
 
 HOW TO OPEN
-  Double-click  lesson.html  (Chrome or Edge works best).
+  Double-click  index.html  (Chrome or Edge works best).
   Everything runs offline. No internet connection is needed.
 
 KEEP THE FOLDER TOGETHER
-  lesson.html needs the  audio  and  lang  folders next to it (voice and Hindi).
+  index.html needs the  audio  and  lang  folders next to it (voice and Hindi).
   Copy or share the whole folder, not just one file.
 
+PUT IT ONLINE (VERCEL)
+  The folder is a ready static site: no build step.
+    vercel deploy --prod        (from this folder), or
+    import the GitHub repo in vercel.com with Framework Preset "Other",
+    no build command, output directory left as the project root.
+  vercel.json caches the voice clips for a year (their names change when they change)
+  and always rechecks the page and the text files.
+  Open  /?lang=hi  to start in Hindi, or  /?screen=12  to jump to a screen.
+
 WHAT IS INSIDE
-  lesson.html     The 46-screen lesson, ending with the 8-round game "Mistri-ji's orders".
+  index.html      The 46-screen lesson, ending with the 8-round game "Mistri-ji's orders".
   audio/en/       Swiftee's Indian-English voice-over (527 short MP3 clips).
   audio/hi/       Swiftee's Hindi voice-over (527 clips, one for every English clip).
   lang/hi.js      The Hindi translation of every line on screen and in the voice-over.
